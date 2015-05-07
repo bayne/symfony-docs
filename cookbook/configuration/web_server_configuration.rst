@@ -45,7 +45,7 @@ The **minimum configuration** to get your application running under Apache is:
         DocumentRoot /var/www/project/web
         <Directory /var/www/project/web>
             AllowOverride All
-            Order allow, deny
+            Order allow,deny
             Allow from All
         </Directory>
 
